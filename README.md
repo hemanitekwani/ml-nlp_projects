@@ -1,4 +1,4 @@
-
+https://github.com/hemanitekwani/ml-nlp_projects/blob/main/Breast_cancer.py
 # Breast Cancer Diagnosis using Machine Learning
 This repository contains code for a machine learning project focused on breast cancer diagnosis. The goal of this project is to predict whether a breast cancer diagnosis is malignant or benign based on various features using machine learning techniques.
 
@@ -34,6 +34,7 @@ Pandas
 scikit-learn (sklearn)
 joblib
 # Real-time Face Mesh Detection using OpenCV and MediaPipe
+https://github.com/hemanitekwani/ml-nlp_projects/blob/main/facemesh.py
 This repository contains code for a real-time face mesh detection application using OpenCV and MediaPipe. The application captures video from the default camera, processes each frame, and detects facial landmarks using the MediaPipe FaceMesh module. Detected landmarks are visualized on the video frame in real-time.
 
 ## Usage

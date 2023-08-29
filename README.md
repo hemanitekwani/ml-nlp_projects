@@ -4,24 +4,29 @@
 https://github.com/hemanitekwani/projects/blob/main/Breast_cancer.py
 This repository contains code for a machine learning project focused on breast cancer diagnosis. The goal of this project is to predict whether a breast cancer diagnosis is malignant or benign based on various features using machine learning techniques.
 
-Dataset
+# Dataset
 The breast cancer dataset used in this project is loaded from a CSV file named breast-cancer.csv. The dataset contains information about various features related to breast cancer tumors.
 
-Features
+# Features
 The features used for prediction are extracted from the dataset by dropping the 'diagnosis' column, which represents the target variable. The remaining features include information about the characteristics of the tumors.
 
-Preprocessing
+ # Preprocessing
 Before training the machine learning model, the dataset is preprocessed in the following steps:
 
-Data Loading: The dataset is loaded using the Pandas library.
-Data Exploration: Basic information about the dataset is displayed, including its shape and summary statistics.
-Handling Missing Values: Any missing values in the dataset are identified and handled if necessary.
-Data Splitting: The dataset is split into training and testing sets using a test size of 20% and a random state of 42.
-Model Training
+## Data Loading : 
+The dataset is loaded using the Pandas library.
+## Data Exploration: 
+Basic information about the dataset is displayed, including its shape and summary statistics.
+## Handling Missing Values:
+Any missing values in the dataset are identified and handled if necessary.
+## Data Splitting: 
+he dataset is split into training and testing sets using a test size of 20% and a random state of 42.
+## Model Training
 A Logistic Regression model is used to predict breast cancer diagnosis. The following steps are taken in model training:
 
-Model Initialization: An instance of the LogisticRegression model is created.
-Model Fitting: The model is trained on the training data (features and corresponding target).
+## Model Initialization:
+An instance of the LogisticRegression model is created.
+## Model Fitting: The model is trained on the training data (features and corresponding target).
 Training Accuracy: The accuracy of the model on the training data is calculated and displayed.
 Testing Accuracy: The accuracy of the model on the testing data is calculated and displayed.
 Evaluation
